@@ -150,7 +150,7 @@ class App extends BaseComponent {
       if (window.__PRELOADED_ALGORITHM__) {
         this.props.setAlgorithm(window.__PRELOADED_ALGORITHM__);
         delete window.__PRELOADED_ALGORITHM__;
-      } else if (window.__PRELOADED_ALGORITHM__ === null) {
+      } else if (window.__PRELOADED_ALGORITHM__ === null && (categoryKey && algorithmKey)) {
         delete window.__PRELOADED_ALGORITHM__;
         return Promise.reject(new Error(ERROR_MESSAGES.ALGORITHM_NOT_FOUND));
       } else if (categoryKey && algorithmKey) {

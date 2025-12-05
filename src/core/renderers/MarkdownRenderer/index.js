@@ -17,7 +17,7 @@ class MarkdownRenderer extends Renderer {
         props => <h6 {...props} />,
       ][level - 1];
 
-      const idfy = text => text.toLowerCase().trim().replace(/[^\w \-]/g, '').replace(/ /g, '-');
+      const idfy = text => text.toLowerCase().trim().replace(/[^\w -]/g, '').replace(/ /g, '-');
 
       const getText = children => {
         return React.Children.map(children, child => {
@@ -31,9 +31,7 @@ class MarkdownRenderer extends Renderer {
       const id = idfy(getText(children));
 
       return (
-        <HeadingComponent id={id} {...rest}>
-          {children}
-        </HeadingComponent>
+        <HeadingComponent id={id} children={children} {...rest} />
       );
     };
 
@@ -41,11 +39,11 @@ class MarkdownRenderer extends Renderer {
       return /^#/.test(href) ? (
         <a href={href} {...rest} />
       ) : (
-        <a href={href} rel="noopener" target="_blank" {...rest} />
+        <a href={href} rel="noreferrer noopener" target="_blank" {...rest} />
       );
     };
 
-    const image = ({ src, ...rest }) => {
+    const image = ({ src, alt, ...rest }) => {
       let newSrc = src;
       let style = { maxWidth: '100%' };
       const CODECOGS = 'https://latex.codecogs.com/svg.latex?';
@@ -59,7 +57,7 @@ class MarkdownRenderer extends Renderer {
       } else if (src.startsWith(WIKIMEDIA_MATH)) {
         style.filter = 'invert(100%)';
       }
-      return <img src={newSrc} style={style} {...rest} />;
+      return <img src={newSrc} alt={alt || ''} style={style} {...rest} />;
     };
 
     return (
