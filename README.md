@@ -1,4 +1,10 @@
-# Algorithm Visualizer
+# OI Team Algorithm Visualizer 電培算法視覺化網站
+本站從開源項目**algorithm-visualizer.org**改編而成，幾乎所有功能都是其他大佬製作，
+本蒟蒻只對前端進行些許改造，以求舒適方便。
+
+It is forked from the open project **algorithm-visualizer.org**, where I have made a minimal UI change to make the look more modern overall.
+In this site you are able to "see" a lot of algorithm.
+Hope it helps our school do better on OI.
 
 ## Introduction
 Welcome to Algorithm Visualizer, an interactive online platform designed to bring algorithms to life through visualization. Whether you're a student, teacher, or professional, our platform provides an engaging way to explore and understand various algorithms.
