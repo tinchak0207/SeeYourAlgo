@@ -28,15 +28,15 @@ class TabContainer extends React.Component {
         <div className={styles.tab_bar}>
           <div className={classes(styles.title, styles.fake)}/>
           {
-            files.map((file, i) => file === editingFile ? (
-              <div className={classes(styles.title, styles.selected)} key={i}
+            files.map((file) => file === editingFile ? (
+              <div className={classes(styles.title, styles.selected)} key={file.name}
                    onClick={() => this.props.setEditingFile(file)}>
                 <AutosizeInput className={styles.input_title} value={file.name}
                                onClick={e => e.stopPropagation()}
                                onChange={e => this.props.renameFile(file, e.target.value)}/>
               </div>
             ) : (
-              <div className={styles.title} key={i} onClick={() => this.props.setEditingFile(file)}>
+              <div className={styles.title} key={file.name} onClick={() => this.props.setEditingFile(file)}>
                 {file.name}
               </div>
             ))

@@ -28,9 +28,10 @@ class Navigator extends React.Component {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
-    const { algorithm } = nextProps.current;
-    if (algorithm) {
+  componentDidUpdate(prevProps) {
+    const { algorithm } = this.props.current;
+    const { algorithm: prevAlgorithm } = prevProps.current;
+    if (algorithm && algorithm !== prevAlgorithm) {
       this.toggleCategory(algorithm.categoryKey, true);
     }
   }
@@ -79,7 +80,7 @@ class Navigator extends React.Component {
     const gistId = scratchPaper && scratchPaper.gistId;
 
     return (
-      <nav className={classes(styles.navigator, className)}>
+      <nav className={classes(styles.navigator, className)} role="navigation" aria-label="Algorithm Navigator">
         <div className={styles.search_bar_container}>
           <FontAwesomeIcon fixedWidth icon={faSearch} className={styles.search_icon}/>
           <input type="text" className={styles.search_bar} aria-label="Search" placeholder="Search ..." autoFocus

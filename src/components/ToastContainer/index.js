@@ -2,13 +2,14 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { actions } from 'reducers';
 import { classes } from 'common/util';
+import { TOAST_TIMEOUT } from 'common/constants';
 import styles from './ToastContainer.module.scss';
 
 class ToastContainer extends React.Component {
-  componentWillReceiveProps(nextProps) {
-    const newToasts = nextProps.toast.toasts.filter(toast => !this.props.toast.toasts.includes(toast));
+  componentDidUpdate(prevProps) {
+    const newToasts = this.props.toast.toasts.filter(toast => !prevProps.toast.toasts.includes(toast));
     newToasts.forEach(toast => {
-      window.setTimeout(() => this.props.hideToast(toast.id), 3000);
+      window.setTimeout(() => this.props.hideToast(toast.id), TOAST_TIMEOUT);
     });
   }
 
@@ -20,7 +21,7 @@ class ToastContainer extends React.Component {
       <div className={classes(styles.toast_container, className)}>
         {
           toasts.map(toast => (
-            <div className={classes(styles.toast, styles[toast.type])} key={toast.id}>
+            <div className={classes(styles.toast, styles[toast.type])} key={toast.id} role="alert" aria-live="polite">
               {toast.message}
             </div>
           ))

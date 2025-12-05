@@ -1,9 +1,9 @@
 import React from 'react';
 import Cookies from 'js-cookie';
 import { connect } from 'react-redux';
-import Promise from 'bluebird';
 import { Helmet } from 'react-helmet';
 import queryString from 'query-string';
+import { ERROR_MESSAGES, WARNING_MESSAGES, PAGINATION } from 'common/constants';
 import {
   BaseComponent,
   CodeEditor,
@@ -63,12 +63,12 @@ class App extends BaseComponent {
     this.toggleHistoryBlock(false);
   }
 
-  componentWillReceiveProps(nextProps) {
-    const { params } = nextProps.match;
-    const { search } = nextProps.location;
-    if (params !== this.props.match.params || search !== this.props.location.search) {
+  componentDidUpdate(prevProps) {
+    const { params } = this.props.match;
+    const { search } = this.props.location;
+    if (params !== prevProps.match.params || search !== prevProps.location.search) {
       const { categoryKey, algorithmKey, gistId } = params;
-      const { algorithm, scratchPaper } = nextProps.current;
+      const { algorithm, scratchPaper } = this.props.current;
       if (algorithm && algorithm.categoryKey === categoryKey && algorithm.algorithmKey === algorithmKey) return;
       if (scratchPaper && scratchPaper.gistId === gistId) return;
       this.loadAlgorithm(params, queryString.parse(search));
@@ -77,7 +77,7 @@ class App extends BaseComponent {
 
   toggleHistoryBlock(enable = !this.unblock) {
     if (enable) {
-      const warningMessage = 'Are you sure you want to discard changes?';
+      const warningMessage = WARNING_MESSAGES.UNSAVED_CHANGES;
       window.onbeforeunload = () => {
         const { saved } = this.props.current;
         if (!saved) return warningMessage;
@@ -122,7 +122,7 @@ class App extends BaseComponent {
   }
 
   loadScratchPapers() {
-    const per_page = 100;
+    const per_page = PAGINATION.GISTS_PER_PAGE;
     const paginateGists = (page = 1, scratchPapers = []) => GitHubApi.listGists({
       per_page,
       page,
@@ -152,7 +152,7 @@ class App extends BaseComponent {
         delete window.__PRELOADED_ALGORITHM__;
       } else if (window.__PRELOADED_ALGORITHM__ === null) {
         delete window.__PRELOADED_ALGORITHM__;
-        return Promise.reject(new Error('Algorithm Not Found'));
+        return Promise.reject(new Error(ERROR_MESSAGES.ALGORITHM_NOT_FOUND));
       } else if (categoryKey && algorithmKey) {
         return AlgorithmApi.getAlgorithm(categoryKey, algorithmKey)
           .then(({ algorithm }) => this.props.setAlgorithm(algorithm));

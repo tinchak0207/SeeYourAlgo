@@ -1,9 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import faExclamationCircle from '@fortawesome/fontawesome-free-solid/faExclamationCircle';
 import faSpinner from '@fortawesome/fontawesome-free-solid/faSpinner';
 import { classes } from 'common/util';
+import { CONFIRM_TIMEOUT } from 'common/constants';
 import { Ellipsis } from 'components';
 import styles from './Button.module.scss';
 
@@ -51,7 +53,7 @@ class Button extends React.Component {
           this.timeout = window.setTimeout(() => {
             this.timeout = undefined;
             this.setState({ confirming: false });
-          }, 2000);
+          }, CONFIRM_TIMEOUT);
         };
       }
     }
@@ -78,12 +80,38 @@ class Button extends React.Component {
     return to ? (
       <Link {...props} />
     ) : href ? (
-      <a rel="noopener" target="_blank" {...props} />
+      <a rel="noopener noreferrer" target="_blank" {...props} />
     ) : (
       <div {...props} />
     );
   }
 }
+
+Button.propTypes = {
+  className: PropTypes.string,
+  children: PropTypes.node,
+  to: PropTypes.string,
+  href: PropTypes.string,
+  onClick: PropTypes.func,
+  icon: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  reverse: PropTypes.bool,
+  selected: PropTypes.bool,
+  disabled: PropTypes.bool,
+  primary: PropTypes.bool,
+  active: PropTypes.bool,
+  confirmNeeded: PropTypes.bool,
+  inProgress: PropTypes.bool,
+};
+
+Button.defaultProps = {
+  reverse: false,
+  selected: false,
+  disabled: false,
+  primary: false,
+  active: false,
+  confirmNeeded: false,
+  inProgress: false,
+};
 
 export default Button;
 
