@@ -7,15 +7,18 @@ class MarkdownRenderer extends Renderer {
   renderData() {
     const { markdown } = this.props.data;
 
+    const headingComponents = [
+      props => <h1 {...props}>{props.children}</h1>,
+      props => <h2 {...props}>{props.children}</h2>,
+      props => <h3 {...props}>{props.children}</h3>,
+      props => <h4 {...props}>{props.children}</h4>,
+      props => <h5 {...props}>{props.children}</h5>,
+      props => <h6 {...props}>{props.children}</h6>,
+    ];
+
     const heading = ({ level, children, ...rest }) => {
-      const HeadingComponent = [
-        props => <h1 {...props} />,
-        props => <h2 {...props} />,
-        props => <h3 {...props} />,
-        props => <h4 {...props} />,
-        props => <h5 {...props} />,
-        props => <h6 {...props} />,
-      ][level - 1];
+      const index = Math.min(Math.max(level, 1), headingComponents.length) - 1;
+      const HeadingComponent = headingComponents[index];
 
       const idfy = text => text.toLowerCase().trim().replace(/[^\w \-]/g, '').replace(/ /g, '-');
 
@@ -37,11 +40,18 @@ class MarkdownRenderer extends Renderer {
       );
     };
 
-    const link = ({ href, ...rest }) => {
-      return /^#/.test(href) ? (
-        <a href={href} {...rest} />
-      ) : (
-        <a href={href} rel="noopener" target="_blank" {...rest} />
+    const link = ({ href, children, ...rest }) => {
+      if (/^#/.test(href)) {
+        return (
+          <a href={href} {...rest}>
+            {children}
+          </a>
+        );
+      }
+      return (
+        <a href={href} rel="noreferrer noopener" target="_blank" {...rest}>
+          {children}
+        </a>
       );
     };
 
