@@ -59,30 +59,44 @@ class Button extends React.Component {
     }
 
     const iconOnly = !children;
-    const props = {
+    const { rel, target, ...elementProps } = rest;
+    const content = [
+      icon && (
+        typeof icon === 'string' ?
+          <div className={classes(styles.icon, styles.image)} key="icon"
+               style={{ backgroundImage: `url(${icon})` }} /> :
+          <FontAwesomeIcon className={styles.icon} fixedWidth icon={inProgress ? faSpinner : icon} spin={inProgress}
+                           key="icon" />
+      ),
+      children,
+    ];
+
+    const sharedProps = {
+      ...elementProps,
       className: classes(styles.button, reverse && styles.reverse, selected && styles.selected, disabled && styles.disabled, primary && styles.primary, active && styles.active, iconOnly && styles.icon_only, className),
-      to: disabled ? null : to,
-      href: disabled ? null : href,
       onClick: disabled ? null : onClick,
-      children: [
-        icon && (
-          typeof icon === 'string' ?
-            <div className={classes(styles.icon, styles.image)} key="icon"
-                 style={{ backgroundImage: `url(${icon})` }} /> :
-            <FontAwesomeIcon className={styles.icon} fixedWidth icon={inProgress ? faSpinner : icon} spin={inProgress}
-                             key="icon" />
-        ),
-        children,
-      ],
-      ...rest,
     };
 
-    return to ? (
-      <Link {...props} />
-    ) : href ? (
-      <a rel="noopener noreferrer" target="_blank" {...props} />
-    ) : (
-      <div {...props} />
+    if (to) {
+      return (
+        <Link {...sharedProps} to={disabled ? null : to}>
+          {content}
+        </Link>
+      );
+    }
+
+    if (href) {
+      return (
+        <a {...sharedProps} href={disabled ? null : href} rel={rel || 'noopener noreferrer'} target={target || '_blank'}>
+          {content}
+        </a>
+      );
+    }
+
+    return (
+      <div {...sharedProps}>
+        {content}
+      </div>
     );
   }
 }
