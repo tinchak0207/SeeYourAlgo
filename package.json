@@ -4,9 +4,9 @@
   "title": "Algorithm Visualizer",
   "description": "Algorithm Visualizer is an interactive online platform that visualizes algorithms from code.",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -27,7 +27,7 @@
   "proxy": "http://localhost:8080",
   "license": "MIT",
   "engines": {
-    "node": ">=10.15.3"
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
@@ -35,12 +35,16 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/react-fontawesome": "0.1.4",
-    "axios": "^0.19.0",
-    "bluebird": "latest",
+    "axios": "^1.6.8",
+    "path-browserify": "^1.0.1",
+    "react-app-rewired": "^2.2.1",
+    "os-browserify": "^0.3.0",
+    "crypto-browserify": "^3.12.0",
+    "stream-browserify": "^3.0.0",
     "brace": "latest",
     "chart.js": "^2.8.0",
-    "js-cookie": "^2.2.0",
-    "node-sass": "^4.12.0",
+    "js-cookie": "^3.0.5",
+    "sass": "^1.77.6",
     "query-string": "^6.7.0",
     "raw-loader": "^3.0.0",
     "react": "^16.8.6",
@@ -55,7 +59,7 @@
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-router-redux": "^4.0.8",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-toastify": "^5.2.1",
     "redbox-react": "^1.6.0",
     "redux": "^4.0.1",
@@ -63,6 +67,6 @@
     "remove-markdown": "^0.3.0",
     "screenfull": "^4.2.0",
     "sprintf-js": "^1.1.2",
-    "uuid": "^3.3.2"
+    "uuid": "^9.0.1"
   }
 }
