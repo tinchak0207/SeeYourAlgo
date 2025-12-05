@@ -1,0 +1,1373 @@
+
+> @algorithm-visualizer/algorithm-visualizer@2.0.0 start
+> react-app-rewired start
+
+(node:8702) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:8702) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Fast Refresh requires React 16.10 or higher. You are using React 16.8.6.
+Starting the development server...
+
+Compiled with warnings.
+
+[eslint] 
+src/apis/index.js
+  Line 35:7:  'PUT' is assigned a value but never used  no-unused-vars
+
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/stylesheet.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/stylesheet.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9  @import
+<w> src/stylesheet.scss 1:9               root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9  @import
+<w> src/stylesheet.scss 1:9               root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9  @import
+<w> src/stylesheet.scss 1:9               root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/App/App.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/App/App.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9    @import
+<w> src/components/App/App.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9    @import
+<w> src/components/App/App.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9    @import
+<w> src/components/App/App.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/Button/Button.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/Button/Button.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9          @import
+<w> src/components/Button/Button.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9          @import
+<w> src/components/Button/Button.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9          @import
+<w> src/components/Button/Button.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/CodeEditor/CodeEditor.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/CodeEditor/CodeEditor.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                  @import
+<w> src/components/CodeEditor/CodeEditor.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                  @import
+<w> src/components/CodeEditor/CodeEditor.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                  @import
+<w> src/components/CodeEditor/CodeEditor.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/Divider/Divider.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/Divider/Divider.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9            @import
+<w> src/components/Divider/Divider.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9            @import
+<w> src/components/Divider/Divider.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9            @import
+<w> src/components/Divider/Divider.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/Ellipsis/Ellipsis.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/Ellipsis/Ellipsis.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9              @import
+<w> src/components/Ellipsis/Ellipsis.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9              @import
+<w> src/components/Ellipsis/Ellipsis.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9              @import
+<w> src/components/Ellipsis/Ellipsis.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/ErrorBoundary/ErrorBoundary.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/ErrorBoundary/ErrorBoundary.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                        @import
+<w> src/components/ErrorBoundary/ErrorBoundary.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                        @import
+<w> src/components/ErrorBoundary/ErrorBoundary.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                        @import
+<w> src/components/ErrorBoundary/ErrorBoundary.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/ExpandableListItem/ExpandableListItem.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/ExpandableListItem/ExpandableListItem.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                                  @import
+<w> src/components/ExpandableListItem/ExpandableListItem.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                                  @import
+<w> src/components/ExpandableListItem/ExpandableListItem.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                                  @import
+<w> src/components/ExpandableListItem/ExpandableListItem.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/Header/Header.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/Header/Header.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9          @import
+<w> src/components/Header/Header.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9          @import
+<w> src/components/Header/Header.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9          @import
+<w> src/components/Header/Header.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/ListItem/ListItem.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/ListItem/ListItem.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9              @import
+<w> src/components/ListItem/ListItem.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9              @import
+<w> src/components/ListItem/ListItem.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9              @import
+<w> src/components/ListItem/ListItem.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/Navigator/Navigator.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/Navigator/Navigator.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                @import
+<w> src/components/Navigator/Navigator.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                @import
+<w> src/components/Navigator/Navigator.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                @import
+<w> src/components/Navigator/Navigator.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/Player/Player.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/Player/Player.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9          @import
+<w> src/components/Player/Player.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9          @import
+<w> src/components/Player/Player.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9          @import
+<w> src/components/Player/Player.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/ProgressBar/ProgressBar.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/ProgressBar/ProgressBar.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                    @import
+<w> src/components/ProgressBar/ProgressBar.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                    @import
+<w> src/components/ProgressBar/ProgressBar.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                    @import
+<w> src/components/ProgressBar/ProgressBar.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/ResizableContainer/ResizableContainer.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/ResizableContainer/ResizableContainer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                                  @import
+<w> src/components/ResizableContainer/ResizableContainer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                                  @import
+<w> src/components/ResizableContainer/ResizableContainer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                                  @import
+<w> src/components/ResizableContainer/ResizableContainer.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/TabContainer/TabContainer.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/TabContainer/TabContainer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                      @import
+<w> src/components/TabContainer/TabContainer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                      @import
+<w> src/components/TabContainer/TabContainer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                      @import
+<w> src/components/TabContainer/TabContainer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> Recommendation: math.div($line-height, 2) or calc($line-height / 2)
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/slash-div
+<w> 
+<w> src/components/TabContainer/TabContainer.module.scss 60:18  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/ToastContainer/ToastContainer.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/ToastContainer/ToastContainer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                          @import
+<w> src/components/ToastContainer/ToastContainer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                          @import
+<w> src/components/ToastContainer/ToastContainer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                          @import
+<w> src/components/ToastContainer/ToastContainer.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/VisualizationViewer/VisualizationViewer.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/components/VisualizationViewer/VisualizationViewer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                                    @import
+<w> src/components/VisualizationViewer/VisualizationViewer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                                    @import
+<w> src/components/VisualizationViewer/VisualizationViewer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                                    @import
+<w> src/components/VisualizationViewer/VisualizationViewer.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/core/renderers/Renderer/Renderer.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/core/renderers/Renderer/Renderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                  @import
+<w> src/core/renderers/Renderer/Renderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                  @import
+<w> src/core/renderers/Renderer/Renderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                  @import
+<w> src/core/renderers/Renderer/Renderer.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/core/renderers/MarkdownRenderer/MarkdownRenderer.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/core/renderers/MarkdownRenderer/MarkdownRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                                  @import
+<w> src/core/renderers/MarkdownRenderer/MarkdownRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                                  @import
+<w> src/core/renderers/MarkdownRenderer/MarkdownRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                                  @import
+<w> src/core/renderers/MarkdownRenderer/MarkdownRenderer.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/core/renderers/LogRenderer/LogRenderer.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/core/renderers/LogRenderer/LogRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                        @import
+<w> src/core/renderers/LogRenderer/LogRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                        @import
+<w> src/core/renderers/LogRenderer/LogRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                        @import
+<w> src/core/renderers/LogRenderer/LogRenderer.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/core/renderers/Array2DRenderer/Array2DRenderer.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/core/renderers/Array2DRenderer/Array2DRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                                @import
+<w> src/core/renderers/Array2DRenderer/Array2DRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                                @import
+<w> src/core/renderers/Array2DRenderer/Array2DRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                                @import
+<w> src/core/renderers/Array2DRenderer/Array2DRenderer.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/core/renderers/ChartRenderer/ChartRenderer.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/core/renderers/ChartRenderer/ChartRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                            @import
+<w> src/core/renderers/ChartRenderer/ChartRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                            @import
+<w> src/core/renderers/ChartRenderer/ChartRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                            @import
+<w> src/core/renderers/ChartRenderer/ChartRenderer.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/react-scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/core/renderers/GraphRenderer/GraphRenderer.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w> 
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w> 
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/core/renderers/GraphRenderer/GraphRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 1:9                            @import
+<w> src/core/renderers/GraphRenderer/GraphRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 2:9                            @import
+<w> src/core/renderers/GraphRenderer/GraphRenderer.module.scss 1:9  root stylesheet
+<w> 
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w> 
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w> 
+<w> src/common/stylesheet/index.scss 3:9                            @import
+<w> src/core/renderers/GraphRenderer/GraphRenderer.module.scss 1:9  root stylesheet
+<w>
+
+WARNING in [eslint] 
+src/apis/index.js
+  Line 35:7:  'PUT' is assigned a value but never used  no-unused-vars
+
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/apis/index.js
+  Line 35:7:  'PUT' is assigned a value but never used  no-unused-vars
+
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/apis/index.js
+  Line 35:7:  'PUT' is assigned a value but never used  no-unused-vars
+
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/apis/index.js
+  Line 35:1:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+ERROR in [eslint] 
+src/apis/index.js
+  Line 35:1:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/apis/index.js
+Syntax error: Unterminated string constant. (35:0) (35:undefined)
+WARNING in [eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+ERROR in ./src/apis/index.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/engine/project/src/apis/index.js: Unterminated string constant. (35:0)
+
+[0m [90m 33 |[39m }[33m;[39m
+ [90m 34 |[39m
+[31m[1m>[22m[39m[90m 35 |[39m [32m"[39m
+ [90m    |[39m [31m[1m^[22m[39m
+ [90m 36 |[39m
+ [90m 37 |[39m [36mconst[39m [33mPATCH[39m [33m=[39m [33mURL[39m [33m=>[39m {
+ [90m 38 |[39m   [36mreturn[39m request([33mURL[39m[33m,[39m (mappedURL[33m,[39m args) [33m=>[39m {[0m
+    at constructor (/home/engine/project/node_modules/@babel/parser/lib/index.js:367:19)
+    at FlowParserMixin.raise (/home/engine/project/node_modules/@babel/parser/lib/index.js:6624:19)
+    at Object.unterminated (/home/engine/project/node_modules/@babel/parser/lib/index.js:5689:20)
+    at readStringContents (/home/engine/project/node_modules/@babel/parser/lib/index.js:5431:16)
+    at FlowParserMixin.readString (/home/engine/project/node_modules/@babel/parser/lib/index.js:6523:9)
+    at FlowParserMixin.getTokenFromCode (/home/engine/project/node_modules/@babel/parser/lib/index.js:6283:14)
+    at FlowParserMixin.getTokenFromCode (/home/engine/project/node_modules/@babel/parser/lib/index.js:4826:11)
+    at FlowParserMixin.getTokenFromCode (/home/engine/project/node_modules/@babel/parser/lib/index.js:3224:13)
+    at FlowParserMixin.nextToken (/home/engine/project/node_modules/@babel/parser/lib/index.js:5807:10)
+    at FlowParserMixin.next (/home/engine/project/node_modules/@babel/parser/lib/index.js:5717:10)
+    at FlowParserMixin.eat (/home/engine/project/node_modules/@babel/parser/lib/index.js:5721:12)
+    at FlowParserMixin.isLineTerminator (/home/engine/project/node_modules/@babel/parser/lib/index.js:6916:17)
+    at FlowParserMixin.semicolon (/home/engine/project/node_modules/@babel/parser/lib/index.js:6919:25)
+    at FlowParserMixin.parseVarStatement (/home/engine/project/node_modules/@babel/parser/lib/index.js:13307:10)
+    at FlowParserMixin.parseStatementContent (/home/engine/project/node_modules/@babel/parser/lib/index.js:12927:23)
+    at FlowParserMixin.parseStatementLike (/home/engine/project/node_modules/@babel/parser/lib/index.js:12843:17)
+    at FlowParserMixin.parseStatementLike (/home/engine/project/node_modules/@babel/parser/lib/index.js:2945:24)
+    at FlowParserMixin.parseModuleItem (/home/engine/project/node_modules/@babel/parser/lib/index.js:12820:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/engine/project/node_modules/@babel/parser/lib/index.js:13392:36)
+    at FlowParserMixin.parseBlockBody (/home/engine/project/node_modules/@babel/parser/lib/index.js:13385:10)
+    at FlowParserMixin.parseProgram (/home/engine/project/node_modules/@babel/parser/lib/index.js:12698:10)
+    at FlowParserMixin.parseTopLevel (/home/engine/project/node_modules/@babel/parser/lib/index.js:12688:25)
+    at FlowParserMixin.parseTopLevel (/home/engine/project/node_modules/@babel/parser/lib/index.js:3714:28)
+    at FlowParserMixin.parse (/home/engine/project/node_modules/@babel/parser/lib/index.js:14568:25)
+    at parse (/home/engine/project/node_modules/@babel/parser/lib/index.js:14602:38)
+    at parser (/home/engine/project/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/engine/project/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/engine/project/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/engine/project/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/engine/project/node_modules/gensync/index.js:261:32)
+    at /home/engine/project/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/engine/project/node_modules/gensync/index.js:223:11)
+
+ERROR in [eslint] 
+src/apis/index.js
+  Line 35:  Parsing error: Unterminated string constant. (35:0)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 44:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 44:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 62:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 40:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 42:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 60:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                                                                                                       jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                                                                                                       no-useless-escape
+  Line 40:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 42:9:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                                                                                                        jsx-a11y/anchor-has-content
+  Line 60:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                           no-useless-escape
+  Line 40:9:   Anchors must have content and the content must be accessible by a screen reader                            jsx-a11y/anchor-has-content
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                            jsx-a11y/anchor-has-content
+  Line 60:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                           no-useless-escape
+  Line 40:9:   Anchors must have content and the content must be accessible by a screen reader                            jsx-a11y/anchor-has-content
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                            jsx-a11y/anchor-has-content
+  Line 60:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                           no-useless-escape
+  Line 40:9:   Anchors must have content and the content must be accessible by a screen reader                            jsx-a11y/anchor-has-content
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                            jsx-a11y/anchor-has-content
+  Line 60:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader                           jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                                           no-useless-escape
+  Line 40:9:   Anchors must have content and the content must be accessible by a screen reader                            jsx-a11y/anchor-has-content
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader                            jsx-a11y/anchor-has-content
+  Line 60:14:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                  no-useless-escape
+  Line 40:9:   Anchors must have content and the content must be accessible by a screen reader   jsx-a11y/anchor-has-content
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader   jsx-a11y/anchor-has-content
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 20:68:  Unnecessary escape character: \-                                                  no-useless-escape
+  Line 40:9:   Anchors must have content and the content must be accessible by a screen reader   jsx-a11y/anchor-has-content
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader   jsx-a11y/anchor-has-content
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 40:9:   Anchors must have content and the content must be accessible by a screen reader   jsx-a11y/anchor-has-content
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader   jsx-a11y/anchor-has-content
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/Button/index.js
+  Line 83:7:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+src/core/renderers/MarkdownRenderer/index.js
+  Line 12:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 13:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 14:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 15:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 16:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 17:18:  Headings must have content and the content must be accessible by a screen reader  jsx-a11y/heading-has-content
+  Line 40:9:   Anchors must have content and the content must be accessible by a screen reader   jsx-a11y/anchor-has-content
+  Line 42:9:   Anchors must have content and the content must be accessible by a screen reader   jsx-a11y/anchor-has-content
+
+webpack compiled with 1 warning
