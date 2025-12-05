@@ -2,6 +2,8 @@
 
 .list_item {
   height: $line-height;
+  border-bottom: 1px solid $color-selected;
+  font-weight: 500;
 
   .label {
     flex: 1;

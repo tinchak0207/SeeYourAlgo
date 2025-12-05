@@ -6,6 +6,7 @@
   align-items: stretch;
   height: 100%;
   background-color: $theme-normal;
+  border: 3px solid $color-selected;
 
   .header {
   }
@@ -15,6 +16,7 @@
 
     .visualization_viewer {
       background-color: $theme-dark;
+      border: 2px solid $color-selected;
     }
 
     .editor_tab_container {

@@ -9,21 +9,27 @@
 
 .toast {
   width: 280px;
-  border: 1px solid;
-  border-radius: 4px;
+  border: 3px solid;
+  border-radius: 0;
   padding: 16px;
   margin: 8px;
   white-space: pre-wrap;
   pointer-events: auto;
   font-family: $font-family-monospace;
+  font-weight: 600;
+  box-shadow: 0 4px 12px $color-shadow;
 
   &.success {
-    border-color: rgb(0, 150, 0);
-    background-color: rgba(0, 120, 0, .8);
+    border-color: $color-active;
+    background-color: rgba(0, 50, 0, .95);
+    color: $color-active;
+    text-shadow: 0 0 8px $color-active;
   }
 
   &.error {
-    border-color: rgb(150, 0, 0);
-    background-color: rgba(120, 0, 0, .8);
+    border-color: $color-patched;
+    background-color: rgba(50, 0, 0, .95);
+    color: $color-patched;
+    text-shadow: 0 0 8px $color-patched;
   }
 }
