@@ -1,5 +1,5 @@
 import { combineActions, createAction, handleActions } from 'redux-actions';
-import { v4 as uuid } from 'uuid';
+import { v4 } from 'uuid';
 
 const prefix = 'TOAST';
 
@@ -22,7 +22,7 @@ export default handleActions({
     showSuccessToast,
     showErrorToast,
   )]: (state, { payload }) => {
-    const id = uuid.v4();
+    const id = v4();
     const toast = {
       id,
       ...payload,
