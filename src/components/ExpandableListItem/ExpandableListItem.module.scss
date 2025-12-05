@@ -2,13 +2,16 @@
 
 .category {
   justify-content: space-between;
+  border-bottom: 1px solid $color-selected;
+  font-weight: 600;
 
   .icon {
     margin-left: 4px;
+    font-weight: 700;
   }
 }
 
 .expandable_list_item {
-  background-color: $color-shadow;
-  border-bottom: 1px solid $theme-dark;
+  background-color: $theme-light;
+  border-bottom: 1px solid $color-selected;
 }

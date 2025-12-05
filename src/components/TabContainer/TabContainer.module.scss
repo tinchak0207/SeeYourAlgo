@@ -8,6 +8,7 @@
   min-width: 0;
   min-height: 0;
   position: relative;
+  border: 2px solid $color-selected;
 
   .tab_bar {
     display: flex;
@@ -16,6 +17,7 @@
     overflow-x: auto;
     white-space: nowrap;
     flex-shrink: 0;
+    border-bottom: 2px solid $color-selected;
 
     .title {
       display: flex;
@@ -23,7 +25,9 @@
       cursor: pointer;
       padding: 0 12px;
       margin: 0;
-      border-bottom: 1px solid $theme-light;
+      border-right: 2px solid $color-selected;
+      font-weight: 600;
+      background-color: $theme-light;
 
       .input_title {
         input {
@@ -32,16 +36,20 @@
             margin: -4px;
             padding: 4px;
             background-color: $theme-normal;
+            border: 1px solid $color-selected;
+            font-weight: 600;
           }
         }
       }
 
       &.selected {
-        border-left: 1px solid $theme-light;
-        border-right: 1px solid $theme-light;
-        margin: 0 -1px;
-        border-bottom: none;
+        border-right: 2px solid $color-selected;
+        margin: 0;
         background-color: $theme-dark;
+        border-bottom: 2px solid $color-active;
+        margin-bottom: -2px;
+        font-weight: 700;
+        color: $color-active;
       }
 
       &.fake {
@@ -54,6 +62,7 @@
 
         &:last-child {
           flex: 1;
+          border-right: none;
         }
       }
     }

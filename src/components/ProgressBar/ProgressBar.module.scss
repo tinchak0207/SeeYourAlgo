@@ -8,6 +8,7 @@
   background-color: $theme-light;
   cursor: pointer;
   pointer-events: auto;
+  border: 2px solid $color-selected;
 
   > * {
     pointer-events: none;
@@ -18,14 +19,18 @@
     height: 100%;
     left: 0;
     background-color: $color-active;
+    border-right: 2px solid $color-selected;
   }
 
   .label {
     position: absolute;
-    color: $theme-dark;
+    color: $color-font;
+    font-weight: 700;
+    text-shadow: 0 0 8px $color-active;
 
     .current {
-      font-weight: bold;
+      font-weight: 800;
+      color: $color-active;
     }
   }
 }

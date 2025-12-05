@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  border: 2px solid $color-selected;
 
   .ace_editor {
     flex: 1;
@@ -14,8 +15,8 @@
     min-height: 0 !important;
 
     .current_line_marker {
-      background-color: rgba($color-highlight, 0.4);
-      border: 1px solid $color-highlight;
+      background-color: rgba($color-highlight, 0.2);
+      border: 2px solid $color-highlight;
       position: absolute;
       width: 100% !important;
 
@@ -24,10 +25,10 @@
 
     @keyframes line_highlight {
       from {
-        background-color: rgba($color-highlight, 0.1);
+        background-color: rgba($color-highlight, 0.05);
       }
       to {
-        background-color: rgba($color-highlight, 0.4);
+        background-color: rgba($color-highlight, 0.2);
       }
     }
   }
@@ -38,11 +39,13 @@
     align-items: center;
     padding: 4px;
     background-color: $theme-normal;
+    border-top: 2px solid $color-selected;
 
     .contributor {
       height: 28px;
       padding: 0 6px;
-      font-weight: bold;
+      font-weight: 700;
+      border-right: 1px solid $color-selected;
 
       &.label {
         display: flex;
@@ -58,6 +61,11 @@
 
     .delete {
       height: $line-height;
+      border: 2px solid transparent;
+
+      &:hover {
+        border: 2px solid $color-selected;
+      }
     }
   }
 }
