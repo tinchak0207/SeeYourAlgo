@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { withRouter } from 'react-router';
 import AutosizeInput from 'react-input-autosize';
 import screenfull from 'screenfull';
-import Promise from 'bluebird';
+import { ERROR_MESSAGES } from 'common/constants';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import faAngleRight from '@fortawesome/fontawesome-free-solid/faAngleRight';
 import faCaretDown from '@fortawesome/fontawesome-free-solid/faCaretDown';
@@ -59,7 +59,7 @@ class Header extends BaseComponent {
       content: 'https://algorithm-visualizer.org/',
     };
     const save = gist => {
-      if (!user) return Promise.reject(new Error('Sign In Required'));
+      if (!user) return Promise.reject(new Error(ERROR_MESSAGES.SIGN_IN_REQUIRED));
       if (scratchPaper && scratchPaper.login) {
         if (scratchPaper.login === user.login) {
           return GitHubApi.editGist(scratchPaper.gistId, gist);
@@ -119,16 +119,18 @@ class Header extends BaseComponent {
       <header className={classes(styles.header, className)}>
         <div className={styles.row}>
           <div className={styles.section}>
-            <Button className={styles.title_bar} onClick={onClickTitleBar}>
+            <Button className={styles.title_bar} onClick={onClickTitleBar} aria-label="Toggle navigation menu">
               {
-                titles.map((title, i) => [
-                  scratchPaper && i === 1 ?
-                    <AutosizeInput className={styles.input_title} key={`title-${i}`} value={title}
-                                   onClick={e => e.stopPropagation()} onChange={e => this.handleChangeTitle(e)}/> :
-                    <Ellipsis key={`title-${i}`}>{title}</Ellipsis>,
-                  i < titles.length - 1 &&
-                  <FontAwesomeIcon className={styles.nav_arrow} fixedWidth icon={faAngleRight} key={`arrow-${i}`}/>,
-                ])
+                titles.map((title, i) => (
+                  <React.Fragment key={i}>
+                    {scratchPaper && i === 1 ?
+                      <AutosizeInput className={styles.input_title} value={title}
+                                     onClick={e => e.stopPropagation()} onChange={e => this.handleChangeTitle(e)}/> :
+                      <Ellipsis>{title}</Ellipsis>}
+                    {i < titles.length - 1 &&
+                    <FontAwesomeIcon className={styles.nav_arrow} fixedWidth icon={faAngleRight}/>}
+                  </React.Fragment>
+                ))
               }
               <FontAwesomeIcon className={styles.nav_caret} fixedWidth
                                icon={navigatorOpened ? faCaretDown : faCaretRight}/>
@@ -136,14 +138,14 @@ class Header extends BaseComponent {
           </div>
           <div className={styles.section}>
             <Button icon={permitted ? faSave : faCodeBranch} primary disabled={permitted && saved}
-                    onClick={() => this.saveGist()}>{permitted ? 'Save' : 'Fork'}</Button>
+                    onClick={() => this.saveGist()} aria-label={permitted ? 'Save to GitHub' : 'Fork on GitHub'}>{permitted ? 'Save' : 'Fork'}</Button>
             {
               permitted &&
-              <Button icon={faTrashAlt} primary onClick={() => this.deleteGist()} confirmNeeded>Delete</Button>
+              <Button icon={faTrashAlt} primary onClick={() => this.deleteGist()} confirmNeeded aria-label="Delete scratch paper">Delete</Button>
             }
-            <Button icon={faFacebook} primary
+            <Button icon={faFacebook} primary aria-label="Share on Facebook"
                     href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`}>Share</Button>
-            <Button icon={faExpandArrowsAlt} primary
+            <Button icon={faExpandArrowsAlt} primary aria-label="Toggle fullscreen mode"
                     onClick={() => this.handleClickFullScreen()}>Fullscreen</Button>
           </div>
         </div>
